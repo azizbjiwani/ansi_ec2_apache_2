@@ -1,4 +1,7 @@
 # ansi_ec2_apache_2
+export AWS_ACCESS_KEY_ID= 
+export AWS_SECRET_ACCESS_KEY=
+
 ansible-playbook -i ./hosts spinawsec2.yml 
 
 Other way to run ansible playbook--
